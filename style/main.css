@@ -10,11 +10,13 @@
 .header {
   width: 100%;
   border: solid black 2px;
-  /* position: fixed; */
+  position: fixed;
   padding: 10px 0px 13px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  /* z-index: 10; */
 }
 .logo {
   width: 155px;
@@ -22,11 +24,24 @@
 .list {
   padding-top: 10px;
   display: flex;
+  justify-content: space-between;
+  border: solid black 2px;
+}
+.link {
+  padding: 0 20px;
+  color: #4a4a4a;
 }
 
 /* main */
 .main {
   width: 100%;
   height: 100vh;
-  background-color: burlywood;
+  background-color: #3cdbc0;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(250px);
+  color: #ffffff;
 }
